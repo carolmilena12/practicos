@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    background-color: rgb(218, 215, 234);
+    gap: 5px;
+    grid-template-areas: "header header header"
+                         "nav nav nav"
+                         "main main aside"
+                         "footer footer footer";
+}
+
+.grid-container > * {
+    background-color: crimson;
+    height: 80px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+}
+
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+aside {
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}
