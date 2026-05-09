@@ -1,0 +1,48 @@
+.main {
+    width: 800px;
+    height: 500px;
+    background-color: lightblue;
+
+    
+}
+.position {
+   font-size: 14px;
+}
+#estatic {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    z-index: 25;
+
+}
+#relative {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    z-index: 15;
+
+}
+#absolute {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    z-index: 10;
+
+}
+#fixed {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    bottom: 300px;
+    left: 0px;
+    z-index: 20;
+
+}
